@@ -6,8 +6,13 @@ class Day3 extends MY_Controller {
             
             parent::__construct();
 
-        }
-    
+            }
+
+    public function index()
+    {
+        $this->load->view('day3/buttons');
+    }    
+        
     public function buttons()
     {
         $this->load->view('day3/buttons');

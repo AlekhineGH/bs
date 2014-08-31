@@ -7,6 +7,11 @@ class Day2 extends MY_Controller {
             parent::__construct();
    
         }
+    
+    public function index()
+    {
+        $this->load->view('day2/typography');
+    }    
         
     public function typography()
     {

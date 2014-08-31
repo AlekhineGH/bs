@@ -6,7 +6,12 @@ class Day4 extends MY_Controller {
             
             parent::__construct();
         }
-    
+   
+    public function index()
+    {
+        $this->load->view('day4/accordion');
+    }        
+        
     public function accordion()
     {
         $this->load->view('day4/accordion');

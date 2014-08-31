@@ -39,8 +39,10 @@
 */
 
 $route['default_controller'] = "day1";
-$route['404_override'] = '';
 
+$route['football/:num'] = "day4/modals";
+
+$route['404_override'] = '';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
